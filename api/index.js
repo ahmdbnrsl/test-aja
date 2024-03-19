@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 // LINK TIKTOK NYA
-const { DownloadTiktok } = require('./SocialDownloader/tiktok');
+const { DownloadTiktok } = require('.././SocialDownloader/tiktok');
 
 app.get('/', (req, res) => {
   console.log('BERHASIL');
