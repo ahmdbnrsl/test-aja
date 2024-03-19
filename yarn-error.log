@@ -1,0 +1,40 @@
+Arguments: 
+  /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/share/yarn/bin/yarn.js add express
+
+PATH: 
+  /data/data/com.termux/files/home/.bun/bin:/data/data/com.termux/files/home/bin:/data/data/com.termux/files/home/.local/bin:/data/data/com.termux/files/usr/local/bin:/data/data/com.termux/files/usr/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.2.0
+
+Platform: 
+  android arm
+
+Trace: 
+  Error: EPERM: operation not permitted, symlink '../../../mime/cli.js' -> '/storage/emulated/0/tiktok-dl-main/node_modules/send/node_modules/.bin/mime'
+
+npm manifest: 
+  {
+    "name": "tiktokdl",
+    "version": "1.0.0",
+    "description": "tiktokdl",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Akuivan13",
+    "license": "ISC",
+    "dependencies": {
+      "@tobyg74/tiktok-api-dl": "^1.0.14"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
